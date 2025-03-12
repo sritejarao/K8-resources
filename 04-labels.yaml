@@ -1,4 +1,4 @@
-apVersion: v1
+apiVersion: v1
 kind: pods
 metadata:
   name: lables
