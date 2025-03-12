@@ -2,7 +2,7 @@ apiVersion: v1
 kind: pods
 metadata:
   name: lables
-  lables:
+  labels:
     environment=expense
     app= nginx
 spec:
