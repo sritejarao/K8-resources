@@ -8,7 +8,7 @@ spec:
       app: nginx
       version: 1.0.0
   ports:
-  - protocal: TCP
+  - protocol: TCP
     port: 80
     tragetPort: 80
 
