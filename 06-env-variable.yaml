@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: env
 spec:
-  container:
+  containers:
   - name: nginx
     image: nginx
     env:
