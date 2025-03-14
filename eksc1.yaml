@@ -16,5 +16,5 @@ managedNodeGroups:
     minSize: 1
     maxSize: 5
     volumeSize: 20
-    privateNetworking: true  # Ensures nodes use private subnets
+    
     
