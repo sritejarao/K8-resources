@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-LoadBalancer
+  name: nginx-nodeport
 spec:
   type: LoadBalancer
   selector:
@@ -18,12 +18,12 @@ spec:
 apiVersion: v1
 kind: Pod
 metadata:
-  name: backend-LoadBalancer
+  name: backend-np
   labels:
     environment: expense
     app: nginx
     version: 1.0.0
-    demo: LoadBalancer
+    demo: np
 spec:
 # one pod contains multiple containers
   containers:
