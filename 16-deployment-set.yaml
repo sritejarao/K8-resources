@@ -1,3 +1,5 @@
+
+#Manifest file
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -22,6 +24,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.14.2
+        image: sriteja90/nginx:1.0
         ports:
         - containerPort: 80
