@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: sriteja90/deployment:1.0.0
+        image: sriteja90/deployment:1.0.1
         ports:
         - containerPort: 80
 ---
